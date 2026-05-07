@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head><title>Hostel Clothing Preference Form</title></head>
+<body>
+
+<a href="aboutForm.html">About Form</a>
+<a href="admissionForm.html">Admission Form</a>
+<a href="eventRegistration.html">Event Registration Form</a>
+<a href="course_registration.html">Course Registration Form</a>
+<a href="libraryMembership.html">Library Membership Form</a>
+<a href="jobApplication.html">Job Application Form</a>
+<a href="appiontmentBooking.html">appointment booking</a>
+<a href="travelBooking.html">Travel Booking Form</a>
+<a href="foodpreferences.html">Food Form</a>
+
+<h2>Hostel Clothing Preference Form</h2>
+<form>
+  <label>Student Name:</label>
+  <input type="text" name="student" required><br><br>
+
+  <label>Room Number:</label>
+  <input type="text" name="room" required><br><br>
+
+  <label>Uniform Size:</label>
+  <select name="uniform">
+    <option>Small</option>
+    <option>Medium</option>
+    <option>Large</option>
+    <option>XL</option>
+  </select><br><br>
+
+  <label>Preferred Clothing Type:</label>
+  <input type="radio" name="clothing" value="casual"> Casual
+  <input type="radio" name="clothing" value="formal"> Formal
+  <input type="radio" name="clothing" value="sports"> Sports<br><br>
+
+  <label>Seasonal Wear:</label>
+  <select name="season">
+    <optgroup label="Summer">
+      <option>T-Shirts</option>
+      <option>Shorts</option>
+    </optgroup>
+    <optgroup label="Winter">
+      <option>Jackets</option>
+      <option>Sweaters</option>
+    </optgroup>
+    <optgroup label="Rainy">
+      <option>Raincoat</option>
+      <option>Umbrella</option>
+    </optgroup>
+  </select><br><br>
+
+  <label>Upload Laundry Receipt (if any):</label>
+  <input type="file" name="laundry"><br><br>
+
+  <label>Special Requests:</label><br>
+  <textarea name="requests" placeholder="Any clothing preferences..."></textarea><br><br>
+
+  <button>Submit</button>
+</form>
+</body>
+</html>

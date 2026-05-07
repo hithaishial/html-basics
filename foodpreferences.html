@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head><title>Hostel Food Preference Form</title></head>
+<body>
+
+<a href="aboutForm.html">About Form</a>
+<a href="admissionForm.html">Admission Form</a>
+<a href="eventRegistration.html">Event Registration Form</a>
+<a href="course_registration.html">Course Registration Form</a>
+<a href="libraryMembership.html">Library Membership Form</a>
+<a href="jobApplication.html">Job Application Form</a>
+<a href="travelBooking.html">Travel Booking Form</a>
+<a href="appiontmentBooking.html">appointment Booking Form</a>
+<h2>Hostel Food Preference Form</h2>
+<form>
+  <label>Student Name:</label>
+  <input type="text" name="student" required><br><br>
+
+  <label>Room Number:</label>
+  <input type="text" name="room" required><br><br>
+
+  <label>Meal Type:</label>
+  <input type="radio" name="meal" value="veg"> Vegetarian
+  <input type="radio" name="meal" value="nonveg"> Non-Vegetarian
+  <input type="radio" name="meal" value="vegan"> Vegan<br><br>
+
+  <label>Breakfast Option:</label>
+  <select name="breakfast">
+    <optgroup label="South Indian">
+      <option>Idli</option>
+      <option>Dosa</option>
+      <option>Upma</option>
+    </optgroup>
+    <optgroup label="North Indian">
+      <option>Paratha</option>
+      <option>Poori</option>
+      <option>Chole Bhature</option>
+    </optgroup>
+  </select><br><br>
+
+  <label>Lunch Option:</label>
+  <select name="lunch">
+    <option>Rice & Sambar</option>
+    <option>Chapati & Curry</option>
+    <option>Biryani</option>
+    <option>Curd Rice</option>
+  </select><br><br>
+
+  <label>Dinner Option:</label>
+  <select name="dinner">
+    <option>Fried Rice</option>
+    <option>Pulao</option>
+    <option>Dal & Rice</option>
+    <option>Paneer Curry & Chapati</option>
+  </select><br><br>
+
+  <label>Special Requests:</label><br>
+  <textarea name="requests" placeholder="Any dietary restrictions..."></textarea><br><br>
+
+  <button>Submit</button>
+</form>
+</body>
+</html>
