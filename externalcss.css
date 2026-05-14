@@ -2,4 +2,6 @@ p{
     color: burlywood;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
+    width: auto;
+    line-height: 10cm;
 }
