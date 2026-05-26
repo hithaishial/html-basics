@@ -2,6 +2,7 @@ p{
     color: burlywood;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
+    line-height-step: initial;
     width: auto;
     line-height: 10cm;
 }
